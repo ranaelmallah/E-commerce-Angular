@@ -1,0 +1,14 @@
+ul.navbar-nav li a {
+    color: black;
+    margin: 1rem;
+}
+
+.active,
+li:hover a {
+
+    background-color: #dae2e0;
+    color: #fff;
+    padding: .5rem .9rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}

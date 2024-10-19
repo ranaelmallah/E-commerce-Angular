@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="mb-1 d-flex align-items-center justify-content-between ">
-        <button *ngIf="!addbutton " class="btne p-2 " (click)="addbutton=true ">Add to cart</button>
+        <button *ngIf="!addbutton " class="btne p-2 rounded-5 " (click)="addbutton=true ">Add to cart</button>
         <div class="d-flex w-50 justify-content-between " *ngIf="addbutton ">
             <input type="number" class="form-control " [(ngModel)]="amount " min="1">
             <button class="btn btn-dark " (click)="add();addbutton=false "> add</button>

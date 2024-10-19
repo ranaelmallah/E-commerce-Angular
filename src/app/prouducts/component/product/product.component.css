@@ -1,11 +1,3 @@
-.card,
-select {
-    /* border: 0px; */
-}
-
-.talk {
-    /* background-color: rgb(189, 197, 203); */
-}
 
 img {
     height: 180px;
@@ -21,14 +13,11 @@ img {
 
 .item {
     width: 100%;
-    /* text-decoration: none; */
     color: #333;
     margin: 15px;
     padding: 0px;
-    display: inline-block;
-    /* border-radius: 10px; */
+    display: inline-block;  
     box-shadow: 1px 2px 5px rgba(94, 90, 89, 0.3);
-    /* background-color: #333; */
 }
 
 p {
@@ -46,7 +35,7 @@ h4 {
     font-size: 18px;
     font-weight: 600;
     margin-top: 10px;
-    /* background-color: #eee; */
+    
 }
 
 .item:hover {
@@ -56,10 +45,8 @@ h4 {
 .btne {
     background-color: black;
     border: none;
-    padding: 3px 3px;
     color: white;
 }
-
 .detais {
     display: block;
 }

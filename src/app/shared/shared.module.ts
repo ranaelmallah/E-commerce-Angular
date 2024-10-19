@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './component/header/header.component';
+import { HeaderComponent } from './component/header/navbar.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { SelectComponent } from './select/select.component';
 import { FormsModule } from '@angular/forms';
 import { ProuductsModule } from '../prouducts/prouducts.module';
+
 // import { CartsModule } from '../carts/carts.module';
 
 
@@ -16,7 +17,8 @@ import { ProuductsModule } from '../prouducts/prouducts.module';
   declarations: [
     HeaderComponent,
     SpinnerComponent,
-    SelectComponent
+    SelectComponent,
+   
   ],
   imports: [
     CommonModule,

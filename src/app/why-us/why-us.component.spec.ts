@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeaderComponent } from './header.component';
+import { WhyUsComponent } from './why-us.component';
 
-describe('HeaderComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
+describe('WhyUsComponent', () => {
+  let component: WhyUsComponent;
+  let fixture: ComponentFixture<WhyUsComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HeaderComponent]
+      declarations: [WhyUsComponent]
     });
-    fixture = TestBed.createComponent(HeaderComponent);
+    fixture = TestBed.createComponent(WhyUsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
